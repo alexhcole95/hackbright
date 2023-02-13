@@ -1,0 +1,9 @@
+'clear' - clears the terminal window
+cmd + k - also clears the terminal window
+date - shows the current date and time
+ncal - shows the calendar in a vertical format
+ncal (year) - shows the calendar for the whole year
+ncal (month) (year) - shows the calendar for the month in that year
+cal - shows the calendar in a horizontal format
+sort (filename.txt) - sorts the filename in alphabetical order
+man (command) - shows the manual for a specific command (q to quit)
