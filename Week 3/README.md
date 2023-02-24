@@ -1,6 +1,6 @@
 ## Hackbright: Week 3
 
-This week consisted of indepth lessons of the shell.
+This week was full of information regarding Git and GitHub.
 
 ### Day 1:
 Git: Commits, Branches, and More
