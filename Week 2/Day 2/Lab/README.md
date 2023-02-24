@@ -1,9 +1,7 @@
 ## Exercise: GameShell
-
 Play an interactive game in the shell to practice navigating the filesystem and manipulating files with the command line.
 
 ### Getting Started
-
 Run the command for your filesystem (below) to install the dependencies for the game:
 
     brew install nano pstree tree man-db wget

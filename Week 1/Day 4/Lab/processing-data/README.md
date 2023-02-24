@@ -1,5 +1,4 @@
 ## Exercise: Data Structures
-
 Data structure is a generic term used to describe a scheme for organizing, storing, and managing data. In this exercise, you’ll continue to practice working with the data structures and data types we’ve encountered so far but, this time, we’re increasing the complexity of the data by nesting data structures.
 
 You can accomplish a lot with just a little Python and a large batch of data.
@@ -8,14 +7,12 @@ In this exercise, you’ll build programs to practice working with data structur
 
 
 ### Getting Started
-
 [Click here to download the starter code](https://fellowship.hackbrightacademy.com/materials/shiptm1-devops/_downloads/2be176ab241f912c0d52472827110a44/devops-data-structs.zip), unzip, and open the folder in VS Code. Don’t forget to initialize a Git repo.
 
 
 ### Process Data from a File
 
 #### Understanding the Data
-
 The data you’ll work with is in a [CSV file](https://en.wikipedia.org/wiki/Comma-separated_values) named **villagers.csv**. CSV (comma-separated values) is a file format for storing spreadsheet data. The “comma-separated” part of CSV is a bit of a misnomer though — it’s not uncommon to see CSV files that use other characters like tab or | instead of commas.
 
 villagers.csv uses | to separate the following fields:
@@ -30,7 +27,6 @@ For example, if we applied the format above to the first line in **villagers.csv
 - **motto:** Don’t punch your nose to spite your face.
 
 #### Write Functions to Process Data
-
 Your task is to complete the functions in **villager_data.py**.
 
 Here’s a summary of those functions:

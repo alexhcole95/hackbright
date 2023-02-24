@@ -1,10 +1,8 @@
 ## Exercise: Calculator REPL
-
 This exercise will have you complete functions to finish implementing a prefix calculator CLI application (an application that runs in the terminal). The calculator lets a user add, subtract, multiply, divide, square a number, cube a number, raise a number to a given power, and find the remainder when one number is divided by another (otherwise known as taking one number mod another).
 
 
 ### Setup
-
 This exercise includes starter code. Follow the instructions to download the starter code and set up the project directory.
 
 1. [Click here to download the materials for this exercise](https://fellowship.hackbrightacademy.com/materials/shiptm1-devops/_downloads/fd9d348e0815dce8af7f5cfb58a4ff6b/devops-calculator.zip) and unzip them into the folder where you store your programming projects.
@@ -21,7 +19,6 @@ Get in the habit of doing this at the beginning of every exercise. You don’t w
 ### Introduction
 
 #### Calculators and Notation
-
 We typically write math equations using **infix notation** like this `3 + 2` where the operator (in this case, the plus sign) goes inside the numbers.
 
 Another way to write equations is with **prefix notation**. As the name implies, in prefix notation, operators go before the operands so, instead of `3 + 2`, you'd write `+32`.
@@ -32,7 +29,6 @@ In this exercise, we will build a basic prefix calculator together. We will prov
 
 
 #### What’s an API?
-
 An **interface** is a shared boundary between two systems that allows one to communicate with the other. For example, a graphical user interface sits between you and your computer and gives you the ability to interact with its operating system. In software engineering, an **API (application programming interface)** sits between you and your program and allows you to perform a set of operations using your programming language.
 
 APIs don’t come from the void — they’re implemented by other developers. When authors of an API want to distribute their code for other devs to use, they’ll publish documentation on their API. **API documentation** (colloquially, “API docs”) will contain information like the names of functions, what those functions take as input, and what the functions will output — all the information a dev like you would need to know to use the API!
@@ -64,7 +60,6 @@ Note that it doesn’t explain how the function works under-the-hood. This makes
 ### Completing Functions for a Calculator App
 
 #### How the App Works
-
 We’ve provided a terminal-based prefix calculator app with your exercise materials as a Python file called **calculator.py**. It relies on the other file we’ve included — **arithmetic.py** — so make sure both files are in the same directory. Otherwise, **calculator.py** won’t run.
 
 First, let’s get oriented by running **calculator.py**:
@@ -83,7 +78,6 @@ As you can see, **calculator.py** doesn’t work — `+ 1 2` is definitely not `
 This happens because **calculator.py** relies on functions from **arithmetic.py** and the problem with **arithmetic.py** is… well… you should check it out and see for yourself. Why do you think `+ 1 2` gave `10` instead of `3`?
 
 #### Finish arithmetic.py
-
 Your task is to complete the functions in **arithmetic.py** so **calculator.py** will actually work. Here’s an example of what the calculator should be able to do:
 
     Enter your equation > + 1 2

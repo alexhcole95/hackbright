@@ -1,5 +1,4 @@
 ## Exercise: GitHub Basics
-
 This exercise will simulate a typical workflow for a GitHub project. You’ll create and merge a pull request, review another developer’s pull request, and resolve merge conflicts.
 
 
@@ -11,7 +10,6 @@ Start using repositories, branches, commits, and pull requests through a simulat
 
 
 ### Communicate using Markdown
-
 This will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links.
 
 #### Setup
@@ -20,7 +18,6 @@ This will walk you through creating and using headings more effectively, organiz
 
 
 ### Review Pull Requests
-
 All great projects start with collaboration. Pull requests are the foundation of teamwork on GitHub — and pull request reviews give you the ability to work together and discuss changes specific to a pull request by commenting, requesting changes, or approving.
 
 #### Setup
@@ -29,7 +26,6 @@ All great projects start with collaboration. Pull requests are the foundation of
 
 
 ### Resolve Merge Conflicts
-
 Merge conflicts happen when two people make changes to the same file on GitHub — a common occurrence when you’re working with others. While resolving differences might involve some discussion, merge conflicts don’t have to be scary. This guides you through the steps to finding the best merge conflict solution, so your team can keep building.
 
 #### Setup

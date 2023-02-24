@@ -1,19 +1,16 @@
 ## Exercise: Calculator REPL, Revisited
-
 In the main exercise, we asked you to create a prefix calculator application. We gave you calculator.py — which was responsible for running the application’s user interface — and you implemented functions in arithmetic.py — which was responsible for executing mathematical operations behind-the-scenes.
 
 This time, you’ll do the opposite. We’ll give you the backend (**arithmetic.py**) and you’ll write the frontend (**calculator.py**).
 
 
 ### Setup
-
 [Click here to download the materials for this exercise](https://fellowship.hackbrightacademy.com/materials/shiptm1-devops/_downloads/be3104dd4f43eca4c521e39676566451/devops-calculator-2.zip) and unzip them into the folder where you store your programming projects. Then, open the folder in VS Code.
 
 Remember to initialize your Git repo once you’ve downloaded the materials.
 
 
 ### Introduction
-
 A **REPL**, or read-evaluate-print-loop, is a loop designed to continuously read input from the keyboard, evaluate it, and print its results to the screen. This should sound familiar since you’ve worked with several REPLs already — the Python shell, the game from **Guessing Game**, and the app from **Calculator, Part 1** are all powered by REPLs. REPLs are often implemented with while loops like this one:
 
     while exit_condition_not_reached:
@@ -24,7 +21,6 @@ A **REPL**, or read-evaluate-print-loop, is a loop designed to continuously read
 In this exercise, you will re-implement the REPL in **calculator.py** from scratch. To do this, you will need to **tokenize** a string.
 
 #### Tokenization
-
 Tokenizing a string is the process of taking a string and breaking it up into its constituent parts as a list. Consider the following string:
 
     ocean_animals = 'shark,squid,tuna,flounder'
@@ -38,7 +34,6 @@ To create this list, you can use a string method called **split**:
     ocean_animals.split(',')  # => ['shark', 'squid', 'tuna', 'flounder']
 
 #### Tokenization in calculator.py¶
-
 Now consider the following string as read from the keyboard:
 
     input_string = 'pow 3 5'
@@ -70,11 +65,9 @@ We can incorporate the pseudocode above into the pseudocode for the entire REPL:
 
 
 ### Building the Calculator REPL
-
 This time, we’ve provided you with **arithmetic.py**, which contains the underlying math functions but feel free to use your own **arithmetic.py** from **Calculator, Part 1**.
 
 #### arithmetic API
-
 Either way, you’ll require the following functions from arithmetic.py:
 
     add(x, y) → float
@@ -102,7 +95,6 @@ Either way, you’ll require the following functions from arithmetic.py:
     Divide the first input by the second input and return the remainder.
 
 #### Finish calculator.py
-
 Your task is to finish **calculator.py** by creating a REPL that will serve as the user interface for a prefix-notation calculator app.
 
 A sample session of a finished calculator looks like this:
