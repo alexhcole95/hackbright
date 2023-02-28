@@ -11,10 +11,10 @@ content to read when you’re not online, you could manually navigate
 over every page and save each one. But this is pretty boring work, 
 so let’s write a program to do it instead.
 
-XKCD is a popular geek webcomic with a website that fits this 
-structure. The front page has a Prev button that guides the user 
-back through prior comics. Downloading each comic by hand would 
-take forever, but you can write a script to do this in a couple 
+[XKCD](https://xkcd.com/) is a popular geek webcomic with a website 
+that fits this structure. The front page has a Prev button that 
+guides the user back through prior comics. Downloading each comic by
+hand would take forever, but you can write a script to do this in a couple 
 of minutes.
 
 Before you start, you’ll need to learn how to use two external 
