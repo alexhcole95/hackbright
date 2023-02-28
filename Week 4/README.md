@@ -9,7 +9,7 @@ Python: Web Scraping
 Lab: Web Scraping
 
 ### Day 3:
-
+Object Oriented Programming
 
 ### Day 4:
 
