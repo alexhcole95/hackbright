@@ -12,6 +12,7 @@ Lab: Web Scraping
 Object Oriented Programming
 
 ### Day 4:
-
+Exercise: Restaurant Ratings CLI
 
 ### Day 5:
+More Python Projects
